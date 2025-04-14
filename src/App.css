@@ -103,4 +103,25 @@ body {
   width: 100%;
 }
 
-  
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-section,
+  .right-section {
+    max-width: 100%;
+  }
+
+  .filter-container select {
+    width: 100%;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  .center {
+    font-size: 2rem;
+  }
+}

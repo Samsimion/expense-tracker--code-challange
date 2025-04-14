@@ -68,5 +68,30 @@
   .stripedRow:nth-child(odd) {
     background-color: #ffffff;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .table {
+      display: block;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    .thead, .tr {
+      display: table;
+      width: 100%;
+    }
+  
+    .td, .th {
+      font-size: 0.85rem;
+      padding: 0.5rem;
+    }
+  
+    .deleteButton {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.8rem;
+    }
+  }
+  
   
   
