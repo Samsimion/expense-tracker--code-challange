@@ -25,7 +25,7 @@ function ExpenseTable({ expenses, onDelete }){
                             <tr className={`${styles.tr} ${styles.stripedRow}`} key ={expense.id} >
                                 <td className={styles.td}>{expense.description}</td>
                                 <td className={styles.td}>{expense.category}</td>
-                                <td className={styles.td}>{expense.amount.toFixed(2)}</td>
+                                <td className={styles.td}>{`Ksh.${expense.amount.toFixed(2)}`}</td>
                                 <td className={styles.td}>{expense.time}</td>
                                 <td className={styles.td}>{expense.date}</td>
                                 <td className={styles.td}> <button className={styles.deleteButton} onClick={()=> onDelete(expense.id)}>🗑️ Delete </button> </td>
