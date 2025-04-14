@@ -60,4 +60,13 @@
   .deleteButton:hover {
     background-color: #cc0000;
   }
+
+  .stripedRow:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .stripedRow:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
   
