@@ -36,6 +36,19 @@ A sleek, modern web application to track your daily expenses with filtering, sea
 - **Data Storage:** `localStorage` via a custom hook
 
 ---
+## file structure
+src/ │ ├── components/ │ ├── ExpenseForm.js │ ├── ExpenseForm.module.css │ ├── ExpenseTable.js │ ├── ExpenseTable.module.css │ ├── SearchBar.js │ └── UseLocalStorage.js │ ├── App.js ├── App.css └── index.js
+
+ License
+This project is licensed under the MIT License. Feel free to use and adapt it for your own needs.
+
+Author
+Built with ❤️ by [samuel vundi simion]
+
+
+LinkedIn: [linkedin.com/in/yourname](https://www.linkedin.com/in/samuel-simion-889660178/)
+
+GitHub: github.com/samsimion
 
 ##  Getting Started
 
